@@ -1,0 +1,46 @@
+{
+  "name": "iobroker.haier",
+  "version": "1.0.3",
+  "description": "ioBroker Haier air conditioning Adapter",
+  "author": {
+    "name": "instalator",
+    "email": "vvvalt@mail.ru"
+  },
+  "contributors": [
+    {
+      "name": "instalator",
+      "email": "vvvalt@mail.ru"
+    }
+  ],
+  "homepage": "https://github.com/instalator/ioBroker.haier",
+  "license": "MIT",
+  "keywords": [
+    "ioBroker",
+    "haier",
+    "air conditioning"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/instalator/ioBroker.haier"
+  },
+  "dependencies": {
+    "@iobroker/adapter-core": "^2.2.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-replace": "^1.0.1",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-jscs": "^3.0.1",
+    "grunt-http": "^2.3.3",
+    "mocha": "^7.1.1",
+    "chai": "^4.2.0"
+  },
+  "main": "main.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --exit"
+  },
+  "bugs": {
+    "url": "https://github.com/instalator/ioBroker.haier/issues"
+  },
+  "readmeFilename": "README.md"
+}
